@@ -19,10 +19,10 @@
 ### Option 1: CDN
 
 ```html
-<link rel="stylesheet" href="https://yourcdn.com/bootflex@1.0.0/style.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShakilAnsary9/bootflex@1.0.0/style.css" />
 <script
   type="module"
-  src="https://yourcdn.com/bootflex@1.0.0/bootflex.js"
+  src="https://cdn.jsdelivr.net/gh/ShakilAnsary9/bootflex@1.0.0/bootflex.js"
 ></script>
 ```
 
