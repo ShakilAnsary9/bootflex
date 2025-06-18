@@ -1,0 +1,31 @@
+@use "../core/variables";
+
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.accordion-item + .accordion-item {
+  border-top: 1px solid #ccc;
+}
+
+.accordion-header {
+  background: variables.$primary-color;
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accordion-body {
+  display: none;
+  padding: 1rem;
+  background: #f9f9f9;
+}
+
+.accordion-item.active .accordion-body {
+  display: block;
+}

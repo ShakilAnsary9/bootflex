@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootFlex</title>
+    <link rel="stylesheet" href="/dist/style.css" />
+    <script type="module" src="/src/components/component-js/button.js"></script>
+    <script
+      type="module"
+      src="/src/components/component-js/accordion.js"
+    ></script>
+  </head>
+  <body>
+    <boot-button>Click Me</boot-button>
+    <boot-accordion>
+      <accordion-item class="active">
+        <accordion-header>What is BootFlex?</accordion-header>
+        <accordion-body
+          >BootFlex is a custom Bootstrap-like CSS framework.</accordion-body
+        >
+      </accordion-item>
+      <accordion-item>
+        <accordion-header>How is it built?</accordion-header>
+        <accordion-body
+          >It uses SCSS + Web Components with Vite.</accordion-body
+        >
+      </accordion-item>
+    </boot-accordion>
+  </body>
+</html>
