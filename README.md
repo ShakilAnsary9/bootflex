@@ -1,3 +1,5 @@
+[![NPM Version](https://img.shields.io/npm/v/bootflex-ui.svg)](https://www.npmjs.com/package/bootflex-ui)
+
 # BootFlex
 
 **BootFlex** is a lightweight, modern, component-based UI framework inspired by Bootstrap — built using modular SCSS and native Web Components. No dependencies, 100% customizable, and production-ready.
@@ -19,7 +21,10 @@
 ### Option 1: CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShakilAnsary9/bootflex@1.0.0/style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/ShakilAnsary9/bootflex@1.0.0/style.css"
+/>
 <script
   type="module"
   src="https://cdn.jsdelivr.net/gh/ShakilAnsary9/bootflex@1.0.0/bootflex.js"
